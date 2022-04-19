@@ -54,7 +54,6 @@ class MovieAdapter(private val context: Context): RecyclerView.Adapter<MovieAdap
             holder.itemView.im_photo.setImageResource(differ.currentList[position].moviePhoto!!)
 
         }
-
     }
 
     override fun getItemCount(): Int = differ.currentList.size
